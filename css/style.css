@@ -960,6 +960,9 @@
 				font-size: 1.5em;
 				font-weight: bold;
 			}
+			#header h1 a:active, #header h1 a:hover {
+							color: #ffd700	;
+						}
 
 		#header nav {
 			height: inherit;
