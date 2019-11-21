@@ -284,7 +284,7 @@ button,input[type=button],input[type=submit],label{cursor:pointer}
 
 
 .site .corner,.site .corner svg{height:25px;width:79px}
-.colored-block__aligner{position:relative;max-width:900px;margin:0 auto} @media screen and (max-width:650px) {.colored-block{padding-bottom:0;margin-bottom:44px}}
+.colored-block__aligner{position:relative;max-width:900px;margin:0 auto} @media screen and (max-width:650px) {.colored-block{/*padding-bottom:0;margin-bottom:44px*/}}
 
 .ng-cloak-hid{opacity:0}
 
@@ -306,7 +306,12 @@ button,input[type=button],input[type=submit],label{cursor:pointer}
 .range-val svg{width:9px;height:9px}
 .range-val-empty:after{width:8px;height:8px;position:relative;top:3px}@media screen and (max-width:650px){.range-val-empty:after{width:7px;height:7px}}
 .range-val__amm{font-size:14px;padding:6px 9px;line-height:0;cursor:pointer}
-.pep_track{background-size:37px 33px;background-position:0 54px;height:109px}@media screen and (max-width:650px){.pep_track{background-size:30px 27px;height:103px;width:530px;left:50%;margin-left:-271px}}
+.pep_track{background-size:37px 33px;background-position:0 54px;height:109px}@media screen and (max-width:650px){.pep_track{
+/*background-size:30px 27px;*/
+height:103px;
+/*width:530px;*/
+/*left:50%;*/
+/*margin-left:-271px*/}}
 .pep_track .pep{height:100px}
 
 
@@ -316,7 +321,7 @@ button,input[type=button],input[type=submit],label{cursor:pointer}
 .add-button{height:70px;width:100%;bottom:0;left:0;right:0;cursor:pointer;display:-ms-flexbox;display:flex;-ms-flex-align:center;align-items:center;-ms-flex-pack:center;justify-content:center}
 .add-button:hover{background-color:rgba(0,0,0,.03)}
 .add-button svg{width:21px;height:21px;cursor:pointer}@media screen and (max-width:650px){.website-header__sub-heading{font-size:22px;padding:0 24px;letter-spacing:-.9px;line-height:1.2}
-.add-button{display:none}}
+.add-button{/*display:none*/}}
 
 .site-aside{position:absolute;top:0;right:100%;display:-ms-flexbox;display:flex;-ms-flex-direction:column;flex-direction:column;-ms-flex-align:start;align-items:flex-start;-ms-flex-pack:center;justify-content:center;width:180px;height:100%;padding-left:10px}
 .checkbox-group,.site-block{position:relative}@media screen and (max-width:1050px){.site-aside{position:relative;left:0!important;right:0!important;width:auto;display:block;padding:0 20px 19px}

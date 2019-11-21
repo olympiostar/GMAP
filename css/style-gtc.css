@@ -4,6 +4,9 @@
 
 /* Basic */
 
+	body #skel-layers-hiddenWrapper{
+		display: none;
+	}
 	body {
 		color: #444;
 		font-family: "Raleway", Helvetica, sans-serif;
@@ -228,5 +231,6 @@
 			cursor: pointer;
 		}
 
-/* Grid Demo */
+
+
 
